@@ -1,11 +1,11 @@
-//jshint esversion:6
+name//jshint esversion:6
 
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const _ = require("lodash");
 const mongoose = require("mongoose");
-mongoose.connect("mongodb+srv://puriyaj:13491377Pp@cluster0.rb7aj1k.mongodb.net/postList");
+mongoose.connect("mongodb+srv://username:pass@cluster0.rb7aj1k.mongodb.net/postList");
 const postSchema = new mongoose.Schema({
   title:String,
   content:String
